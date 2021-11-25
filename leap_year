@@ -1,0 +1,19 @@
+Leap year is that which have 366 days 
+
+
+code
+
+
+var n = 2021
+
+if (n % 4 == 0){
+    print("it is a leap year : " , n)
+}else{
+    print("it is not a leap year : " , n)
+}
+
+
+
+Output ⇒ it is not a leap year :  2021 
+
+
