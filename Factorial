@@ -1,0 +1,18 @@
+Factorial of a non-negative integer is multiplication of all integers equal to n
+   (eg 3! = 1*2*3 = 6)
+
+code 
+
+var n = 5
+  num = 1
+
+for (i=1; i<= n ; i++){
+    
+    num = num*i  
+}
+  print(num)
+
+
+Output ⇒ 120
+
+
