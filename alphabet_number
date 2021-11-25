@@ -1,0 +1,18 @@
+In this we have used ascii value as total no of alphabet are 26 and if we write each alphabet then it will make code look messy 
+
+code 
+
+var x = 'k'
+
+
+if ( 65>x<90 || 97>x<122 ){		
+    print("alphabet")
+}
+else {
+print("number")
+}
+
+
+Output ⇒ alphabet 
+
+
