@@ -1,0 +1,14 @@
+var a = [10 , 12 , 5 , 7]
+   
+    function test(x){
+        return x * 10
+        
+    }
+
+ var b = a.map(test)
+    console.log(b)
+
+
+
+Output == > [ 100, 120, 50, 70 ]
+
