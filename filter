@@ -1,0 +1,14 @@
+var ages  = [10, 12 ,17 ,18 ,52 , 16]
+        
+    var b = ages.filter(adult)
+    
+    function adult(age){
+        
+        return age >= 18;
+    }
+    
+    console.log (b)
+
+
+Output => [18 , 52]
+
