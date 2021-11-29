@@ -48,7 +48,7 @@ Display factors of a number  https://github.com/pradeep-chauhan/training/blob/da
 
 Print pyramids and triangles  https://github.com/pradeep-chauhan/training/blob/daksh/pyramids_and_triangles.c
 
-Replace vowel with * in the given string - Apple
+Replace vowel with * in the given string - Apple https://github.com/pradeep-chauhan/training/blob/daksh/vowel_*_word.js
 
 Compare two string  https://github.com/pradeep-chauhan/training/blob/daksh/compare_2_string.js
 
