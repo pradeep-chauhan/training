@@ -1,0 +1,31 @@
+.words{
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 700px;
+    grid-template-rows: 700px 700px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+   
+
+}
+
+
+.menu-description{
+    color: gray;
+    opacity: .60;
+    letter-spacing: 0px;
+
+}
+
+.menu{
+    float: left;
+    width: 49%;
+    font-size: 23px;
+    letter-spacing: 10px;
+    
+}
+#img1{
+    float: right;
+    width: 49%;
+}

@@ -1,0 +1,44 @@
+
+.words{
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 680px ;
+    grid-template-rows: 700px 700px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#heading1{
+    position: relative;
+    left: 125%;  
+    letter-spacing: 5px;
+    top: -99%;
+    
+}
+
+
+.para{
+    position:relative;
+    left: 90%;
+    top: -785%;
+    font-size: 18px;
+    font-family:sans-serif
+}
+
+
+.para2{
+    position:relative;
+    left: 90%;
+    top: -1065%;
+    font-size: 18px;
+    font-family:sans-serif;
+    color: gray;
+
+}
+
+#heading2{
+    position: relative;
+    left: 23px;
+    bottom: 10%;
+} 
