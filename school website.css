@@ -1,0 +1,169 @@
+
+.home{
+    background-color: #FFF3EF;
+    min-height: 669px;
+    background-position: 50% 50%;
+}
+.navbar{
+    z-index: 0;
+    color: transparent;
+    word-spacing: 5px;
+}
+
+.image-home{
+    border-radius:50%;
+    height: 470px;
+    position: relative;
+    top: 30%;
+}
+
+.home-text{
+    position: relative;
+    bottom: -50%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.certificate{
+    margin-top: 10%;
+}
+.certificate-text{
+    position: relative;
+    bottom: -20%;
+    font-size : 35px;
+}
+#certificate-image{
+    border-radius: 30%;
+}
+
+.about-us-text{
+    position: relative;
+    bottom: -40%;
+    font-size: 20px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3%;
+}
+.about-us{
+    margin: 1%;
+}
+
+.image-about-us{
+    border-radius:50%;
+    height: 420px;
+    position: relative;
+    top: 5%;
+   
+}
+.service{
+    padding:  4%;
+        background-color: #F8F8F8;
+}
+
+.service-heading{
+    text-align: center;
+}
+
+.image-serivce{
+    border: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+.service-text{
+    margin: 2%;
+    border: transparent;
+}
+.responsibilites{
+    margin: 10%;
+    background-color: #89D0CA;
+    height: 100vh;
+}
+
+.responsibilites-text{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:  3%;
+
+}
+
+.image-responsibilites{
+    height: 470px;
+    position: relative;
+    top: 40%;
+}
+
+
+.popular-courses{
+    margin: 3%;
+}
+
+.image-popular-courses{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+@media (max-width: 420px) {
+    
+.image-home{
+    border-radius:50%;
+    height: 150px;
+    position: relative;
+    top: 90%;
+}
+
+.home-text{
+    position: relative;
+    bottom: -50%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.certificate{
+    margin-top: 10%;
+}
+.certificate-text{
+    position: relative;
+    bottom: -10%;
+    font-size : 25px;
+}
+#certificate-image{
+    height: auto;
+    width: auto;
+    
+}
+
+.image-about-us{
+    border-radius:50%;
+    height: 130px;
+    
+}
+.about-us-text{
+    position: relative;
+    bottom: -20%;
+   
+}
+.responsibilites{
+    margin: 3%;
+    background-color: #89D0CA;
+    height: 100vh;
+}
+.responsibilites-text{ 
+    position: relative;
+    bottom: 30%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.image-responsibilites{
+    height: 130px;
+    position: relative;
+   top: 119%;
+}
+  }
+
