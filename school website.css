@@ -3,6 +3,7 @@
     background-color: #FFF3EF;
     min-height: 669px;
     background-position: 50% 50%;
+    width: auto;
 }
 .navbar{
     z-index: 0;
@@ -109,61 +110,59 @@
 
 
 
-@media (max-width: 420px) {
-    
-.image-home{
+@media (max-width: 480px) {
+    .image-home{
     border-radius:50%;
     height: 150px;
     position: relative;
     top: 90%;
-}
-
-.home-text{
+    }
+    .home-text{
     position: relative;
     bottom: -50%;
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
-}
-.certificate{
-    margin-top: 10%;
-}
-.certificate-text{
-    position: relative;
-    bottom: -10%;
-    font-size : 25px;
-}
-#certificate-image{
+    }
+    #certificate{
+        margin: 2%;
+        }
+    #certificate-image{
+    display: inline-block;
     height: auto;
-    width: auto;
-    
-}
-
-.image-about-us{
+    width: 25%;
+        }
+    .image-about-us{
     border-radius:50%;
-    height: 130px;
-    
-}
-.about-us-text{
+    height: 110px;
+    }
+    .about-us-text{
     position: relative;
     bottom: -20%;
-   
-}
-.responsibilites{
+    }
+    .responsibilites{
     margin: 3%;
     background-color: #89D0CA;
     height: 100vh;
-}
-.responsibilites-text{ 
+    }
+    .responsibilites-text{ 
     position: relative;
     bottom: 30%;
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
-}
-
-.image-responsibilites{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
+    .image-responsibilites{
     height: 130px;
     position: relative;
-   top: 119%;
-}
-  }
+    top: 119%;
+    }
+    }
+@media (min-width:769px) and (max-width:1024px) {
 
+    .responsibilites{
+        height:550px
+    }
+    .image-responsibilites{
+        height: 350px;
+    }
+    
+}
