@@ -1,0 +1,14 @@
+.my{
+    border: 3px solid white;
+    padding: 10px;
+    margin: 415px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+#heading-text{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.home{
+    background-color: #FFF3EF;
+    min-height: 669px;
+    background-position: 50% 50%;
+}
+.navbar navbar-inverse{
+    background-color: #FFF3EF;
+}
+
+
+.home-text{
+    position: relative;
+    bottom: -135px;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image-home{
+    border-radius:50%;
+    height: 470px;
+    position: relative;
+    top: 19%;
+}

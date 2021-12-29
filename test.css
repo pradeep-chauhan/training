@@ -1,0 +1,174 @@
+
+.home{
+    background-color: #FFF3EF;
+    min-height: 669px;
+    background-position: 50% 50%;
+}
+.navbar{
+    z-index: 1;
+    background-color: transparent;
+    word-spacing: 5px;
+}
+
+.image-home{
+    border-radius:50%;
+    height: 470px;
+    position: relative;
+    top: 28%;
+}
+
+.home-text{
+    position: relative;
+    bottom: -50%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.para-text{
+    font-size: 15px;
+}
+.certificate{
+    margin-top: 10%;
+}
+.certificate-text{
+    position: relative;
+    bottom: -20%;
+    font-size : 35px;
+}
+
+.image-about-us{
+    border-radius:50%;
+    height: 470px;
+    }
+    .about-us-text{
+    position: relative;
+    bottom: -20%;
+}
+.service{
+    padding:  4%;
+    background-color: #F8F8F8;
+}
+
+.service-heading{
+    text-align: center;
+}
+
+.image-serivce{
+    border: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+.service-text{
+    margin: 2%;
+    border: transparent;
+}
+.about-us{
+    text-align: center;
+}
+    .responsibilites{
+        margin: 3%;
+        background-color: #89D0CA;
+        height: 100vh;
+        }
+        .responsibilites-text{ 
+        position: relative;
+        bottom: 30%;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        .image-responsibilites{
+        height: 130px;
+        position: relative;
+        top: 119%;
+        }
+        .responsibilites{
+            background-color: #89D0CA;
+            height: 100vh;
+        }
+        
+        .responsibilites-text{
+            text-align: center;
+            position: relative;
+            top: 10%;
+            font-size: 25px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding:  3%;
+        
+        }
+        
+        .image-responsibilites{
+            height: 390px;
+            position: relative;
+           top: 30%;
+        }
+
+
+
+.popular-courses{
+    margin: 3%;
+}
+
+.image-popular-courses{
+    height: 300px;
+    width: 300px;
+}
+
+
+        
+@media (max-width: 480px) {
+    *body{
+        margin: 1%;
+    }
+    .home{
+        min-height: 620px;
+    }
+    .home-text{
+       
+        font-size: 30%;
+    }
+    
+    .image-home{
+        border-radius:50%;
+        height: 150px;
+        position: relative;
+        top: 32%;
+        left: 50%;
+    }
+    .certificate{
+        padding: .5rem;
+    }
+    .certificate-text{
+        font-size: 15px;
+        
+    }
+    #certificate-image{
+        display: inline-block;
+        height: auto;
+        width: auto;
+    }
+    .image-about-us{
+        height: 125px;
+    }
+    #button{
+       float: right;
+       width: 49%;
+    }
+    #button1{
+        float: right;
+        width: 40%;
+    }
+    #responsibilites{
+        height:100vh;
+
+    }
+    .image-responsibilites{
+        height: 190px;
+        position: relative;
+        top: 39%;
+    }
+
+    .responsibilites-text{
+        font-size:16.1px;
+    }
+}
