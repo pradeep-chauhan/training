@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Contact-US</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./contact.css">
+    </head>
+
+    <body>
+
+        <div class="container" >
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" value="" id="name" name="name" placeholder="Name" onchange="uname()">
+                        <label id="iswrongname" style="color: red; visibility: hidden;">name cannot have numbers/blank/special characters</label> 
+
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" value="" id="email" name="email" placeholder="eg: xyz@gmail.com" onchange="uemail()"</div>
+                        <label id="iswrongemail" style="color: red; visibility: hidden;">email required</label> 
+
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="number">Number</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="number" value="" name="number" placeholder="number" onchange="unumber()">
+                            <label id="iswrongnumber" style="color: red; visibility: hidden;">Provide a proper number of 10 digit </label> 
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="button" value="Submit" class="submit" onclick=" dataofuser()">
+                    </div>
+            </form>
+        </div>
+
+    </body>
+    <script src="./contact.js"></script>
+
+</html>

@@ -1,0 +1,198 @@
+.navbar-nav > li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-inverse{
+    background-color: #FFF3EF !important;
+    border-color: #FFF3EF !important;
+} 
+.navbar-btn{
+    background-color: #FFF3EF !important;
+    color: black !important;
+}
+.nav navbar-nav navbar-right li a{
+    color: black !important;
+}
+
+.home{
+    background-color: #FFF3EF;
+    min-height: 667px;
+    background-position: 50% 50%;
+}
+
+
+/*home section*/
+
+.home-text{
+    margin-top: 10%;
+    font-size: 35px ; 
+    font-family: 'Courier New', Courier, monospace;
+    padding: 13%;
+}
+.home-text-para{
+    font-size: 20px;
+}
+
+.image-home{
+    border-radius: 50%;
+    margin-top: 10%;
+    height: 480px;
+    position: relative;
+    bottom: -200%;
+    
+}
+.certificate{
+    margin-top: 10%;
+}
+.certificate-text{
+    position: relative;
+    bottom: -20%;
+    font-size : 40px;
+    margin-top: 15%;
+}
+.column{
+    height: auto;
+    width: auto;
+}
+.about-us{
+    margin-top: 10%;
+    
+}
+.image-about-us{
+    border-radius:50%;
+    height: 470px;
+    }
+.about-us-text{
+    position: relative;
+    bottom: -40%;
+    margin-top: 19%;
+}
+.service{
+    padding:  4%;
+    background-color: #F8F8F8;
+    margin-top: 10%;
+    margin-top: 10%;
+
+}
+.image-serivce{
+    border: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+.service-heading-text{
+    font-size: 35px;
+    position: relative;
+    top: 10%;
+}
+.service-heading{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 10%;
+}
+.responsibilites{
+    margin: 3%;
+    background-color: #89D0CA;
+    height: 100vh;
+    margin-top: 10%;
+    }
+    .responsibilites-text{ 
+    position: relative;
+    bottom: 30%;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
+    .image-responsibilites{
+    height: 130px;
+    position: relative;
+    top: 119%;
+    }
+    .responsibilites{
+        background-color: #89D0CA;
+        height: 100vh;
+    }
+    
+    .responsibilites-text{
+        text-align: center;
+        position: relative;
+        top: 10%;
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding:  3%;
+    
+    }
+    
+    .image-responsibilites{
+        height: 390px;
+        position: relative;
+       top: 30%;
+    }
+
+
+
+.popular-courses{
+margin: 3%;
+margin-top: 10%;
+
+}
+
+.image-popular-courses{
+height: 300px;
+width: 300px;
+}
+
+@media (max-width: 360px) {
+    *body{
+        margin: 1%;
+    }
+    .home{
+        min-height: 620px;
+    }
+    
+    #home-text-heading{
+        font-weight: bold;
+        font-size: 15px;
+      }
+    
+    .image-home{
+        border-radius:50%;
+        height: 150px;
+        position: relative;
+        bottom: 50%;
+        margin-top: 70%;
+    }
+    .image-about-us{
+        height: 125px;
+        position: relative;
+        left: 52%;
+        bottom: 20%;
+    }
+    
+    #button-about-us{
+        position: relative;
+        top: 20%;
+        margin-top: 7%;
+    }
+    .column{
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .service-heading{
+        font-size: 15px;
+    }
+    #responsibilites{
+        height:110vh;
+
+    }
+    .image-responsibilites{
+        height: 190px;
+        position: relative;
+        top: 39%;
+    }
+
+    .responsibilites-text{
+        font-size:16.1px;
+    }
+}
