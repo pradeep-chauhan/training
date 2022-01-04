@@ -1,0 +1,161 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+.nav-bar{
+    background: tomato;
+    color: #fff;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.nav-bar img{position: relative;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+    bottom: 16px; 
+    padding: 10;
+}
+.logo{position: relative;
+    
+   
+}
+
+.login{
+    background-color: #04AA6D;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    padding: 4px 28px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.login:hover {background-color: #3e8e41}
+
+.login:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 360px){
+    *{
+        margin: 0;
+    padding: 0;
+    }
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .nav-bar{ position: relative;
+        background: #f0803f;
+        color: #fff;
+        padding: 30px 10px;
+        font-family: sans-serif;
+        bottom: 20px;
+    }
+    nav-bar img{
+        position: relative;
+        height: 25px;
+        float: left;
+        margin-left: 20px;
+        top: 20px;
+        padding: 10;
+       
+    }
+   
+    
+}
+.bg{
+    background: #f0803f;
+}
+
+/*navbar end*/
+ 
+.start{ position: relative;
+    font-size: 48px;
+    margin-top: 50;
+    margin-left: 400;
+    font-family: Bahnschrift;
+}
+.do{position: relative;
+    margin-left: 330;
+    margin-bottom: 10;
+    bottom: 20px;
+}
+.devops{
+    position: relative;
+    font-size: 48px;
+    margin-left: 350;
+    margin-bottom: 10;
+    bottom: 50px;
+    font-family: Bahnschrift;
+}
+.ss{position: relative;
+    float: right;
+   bottom: 240px;
+   margin-right: 160;
+}
+.paragraph{
+    position: relative;
+    margin-left: 30;
+    text-align: center;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    bottom: 30px;
+}
+
+.btn { position: relative;
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 15px;
+    margin-left: 180;
+  }
+  
+  .btn:hover {opacity: 0.6}
+  
+  .img{
+     margin-left: 400;
+  }
+  
+  @media only screen and (max-width: 360px)
+{
+
+}
+ .bg{
+      color: aqua;
+ }
