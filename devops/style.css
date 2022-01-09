@@ -4,7 +4,7 @@
     padding: 0; 
 }
 .nav-bar{
-    background: tomato;
+    background: transparent;
     color: #fff;
     padding: 15px;
     font-family: sans-serif;
@@ -13,9 +13,9 @@
 .nav-bar img{position: relative;
     height: 80px;
     float: left;
-    margin-left: 20px;
+    margin-left: 10px;
     bottom: 16px; 
-    padding: 10;
+    padding: 8;
 }
 .logo{position: relative;
     
@@ -75,7 +75,7 @@ span{
         display: none;
     }
     .nav-bar{ position: relative;
-        background: #f0803f;
+        background: transparent;
         color: #fff;
         padding: 30px 10px;
         font-family: sans-serif;
@@ -94,59 +94,70 @@ span{
     
 }
 .bg{
-    background: #f0803f;
+    background: #0e2d80;
 }
+
 
 /*navbar end*/
  
 .start{ position: relative;
     font-size: 48px;
     margin-top: 50;
-    margin-left: 400;
+    margin-left: 25%;
+    bottom: 60px;
     font-family: Bahnschrift;
+    color: #fff;
 }
 .do{position: relative;
-    margin-left: 330;
+    margin-left: 20%;
     margin-bottom: 10;
-    bottom: 20px;
+    bottom: 80px;
 }
 .devops{
     position: relative;
     font-size: 48px;
-    margin-left: 350;
+    margin-left: 22%;
     margin-bottom: 10;
-    bottom: 50px;
+    bottom: 110px;
     font-family: Bahnschrift;
+    color: #fff;
 }
-.ss{position: relative;
+.ss{position: absolute;
     float: right;
-   bottom: 240px;
-   margin-right: 160;
+  bottom: 17%;
+   right: 130px;
+   width: 33%;
 }
 .paragraph{
     position: relative;
-    margin-left: 30;
+    margin-left: 5%;
+    float: left;
     text-align: center;
     font-size: 20px;
     font-family: Bahnschrift;
-    bottom: 30px;
+    bottom: 110px;
+    color: #fff;
 }
 
-.btn { position: relative;
+.btn1 { position: relative;
+    
     background-color: #f4511e;
     border: none;
     color: white;
     padding: 16px 32px;
-    text-align: center;
+    
     font-size: 16px;
     margin: 4px 2px;
     opacity: 1;
     transition: 0.3s;
     border-radius: 15px;
-    margin-left: 180;
+    margin-left: 2%;
   }
-  
-  .btn:hover {opacity: 0.6}
+  .btn1{
+    text-align: center ;
+    right: 40%;
+  }
+  .btn1:hover {opacity: 0.6}
   
   .img{
      margin-left: 400;
@@ -154,8 +165,576 @@ span{
   
   @media only screen and (max-width: 360px)
 {
+    .start{
+        left: 28%;
+        font-size: 40px;
+    }
+    .do{
+        left: 14%;
+        width: 50%;
+        margin-top: 5px;
+    }
+    .devops{font-size: 40px;
+        left: 20%;
+        
+        margin-bottom: 19px;
+    }
+    .paragraph{ right: 11px;
+        padding: 0 20px;
+        left: 1px;
+        font-size: 15px;
+
+    }
+    .ss{width: 85%;
+        top: 77%;
+        left: 20px;
+    }
+    
+    .btn1{
+        bottom: 100px;
+        left: 18%;
+    }
+}
+
+
+.integrated_boxes_section{
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    padding: 80px 10px;
+}
+.integrated_boxes_section .title_wrap{
+    text-align: center;
+}
+.integrated_boxes_section .subtitle_text{
+    max-width: 340px;
+    margin: 25px auto 0;
+}
+.integrated_boxes_section .subtitle_text a{
+    color: var(--main_color);
+    cursor: pointer;
+}
+.integrated_boxes_section .subtitle_text a:before{
+    content: '';
+    position: absolute;
+    background: var(--main_color);
+    border-radius: 8px;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: calc(100% + 2px);
+    transition: .3s ease-in-out;
+}
+.integrated_boxes_section .subtitle_text a:hover:before{
+    width: 100%;
+}
+.integrated_boxes_section .subtitle_text p,
+.integrated_boxes_section .title_wrap h2{
+    margin: 0;
+}
+.integrated_boxes_section .title_wrap h2{
+    font-size: 46px;
+}
+.integrated_boxes_section .box_integrated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+.integrated_boxes_section .box_integrated .soon{
+    display: none;
+}
+.integrated_boxes_section .box_integrated .button.Active .soon{
+    display: block;
+    border: 1px solid #FF8577;
+    color: #FF8577;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 2px 10px 0;
+    margin-top: 8px;
+}
+.integrated_boxes_section .box_integrated .button{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    pointer-events: none;
+}
+.integrated_boxes_section .box_integrated .button:before{
+    display: none;
+}
+.integrated_boxes_section .box_integrated .button .icon_wrap{
+    height: 60px;
+}
+.integrated_boxes_section .box_integrated .button .icon_wrap img{
+    height: 100%;
+    object-fit: contain;
+}
+.integrated_boxes_section .box_integrated .button .names{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.integrated_boxes_section .box_integrated .button .text_area{
+    margin-left: 30px;
+}
+
+
+@media(max-width: 360px){
+    .integrated_boxes_section .title_wrap h2{
+        font-size: 32px;
+        max-width: 222px;
+        top: 150px;
+        margin: 10px auto;
+    }
+    .integrated_boxes_section .box_integrated{
+        margin: 40px auto 0;
+    }
+    .integrated_boxes_section .box_integrated .button{
+        flex-direction: column;
+        padding: 0 19px;
+        justify-content: center;
+    }
+    .integrated_boxes_section .box_integrated .button .text_area{
+        margin-left: 0;
+        margin-top: 18px;
+    }
+    .integrated_boxes_section .box_integrated .button .names{
+        text-align: center;
+    }
+    .integrated_boxes_section .box_integrated .button.NotActive .soon{
+        margin-top: 7px;
+    }
+}
+.mainclass{
+  margin: 5px 100px;
+    display: block;
+    box-sizing: border-box;
+    background: #0e2d80;
+    
+}
+.ad{
+    position: relative;
+    font: 500 46px/1.15 sans-serif ;
+    text-align: center;
+    right: 5%;
+    top: 30px;
+    color: white;
+}
+
+.auto{
+    position: relative;
+    top: 50%;
+    margin: 120px 0;
+    right: 5%;
+    color: #fff;
+    text-align: center;
+    bottom: 70px;
+    font: 500 17px 'TTHoves', sans-serif ;
+    
+}
+.bg1{background-color: #0e2d80;
+    padding-left: 150px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.project{
+    position: relative;
+    width: 30%;
+    left: 35%;
+    bottom: 250px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .col {position: relative;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 10px 10px;
+    left: 3%;
+    border: 1px solid black;
+    text-align: center;
+    bottom: 140px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .ro:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.boxx{
+    margin: 0;
+    padding: 0;
+}
+.a22{
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+      position: relative;
+      left: 11%;
+    float: left;
+    width: 38%;
+    padding: 10px ;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 35px;
+    bottom: 30px;
+    color: #f1f1f1;
+    margin: 10px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0e2d80;
+  }
+  
+  .btn.active {
+    background-color: #0e2d80;
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .code{
+      margin: 10px 80px;
+  }
+  .codes{color: rgb(173, 152, 54);
+    margin: 10px 80px;
+}
+  .row_main{ position: relative;
+      margin: 0 ;
+      padding: 0;
+      background-color: #0e2d80;
+      bottom: 100px;
+  }
+  .approach{position: relative;
+    font: 500 30px/1.15 sans-serif;
+    text-align: center;
+   margin: 80px;
+   left: 2%;
+    color: #f1f1f1;
+
+  }
+  .need{position: relative;
+      font: 500 16px/1.15 sans-serif;
+text-align: center;
+color: #f1f1f1;
+bottom: 70px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .co {position: relative;
+    float: left;
+    width: 28%;
+    padding: 10px;
+    margin: 25px 10px ;
+    border: 2px solid black;
+    background-color: rgb(233, 233, 233);
+    left: 8%;
+    height: 220px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .ro:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .page4{position: relative;
+      
+      text-align: center;
+margin: 0;
+padding: 0;
+
+  }
+  .page4h2{
+    font: 500 30px/1.15 sans-serif !important;
+    text-align: center;
+  }
+  
+  .title_box1{ color: #f1f1f1;
+      margin: 30px;
+      font: 500 30px/1.15 sans-serif !important;
+      text-align: center;
+  }
+  .aa8{position: relative;
+      background: transparent;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .any{position: relative;
+      background: transparent;
+      width: 10%;
+      margin: 2px;
+  }
+  .an{position: relative;
+    width: 8%;
+    margin: 20px 30px;
+    background: #fff;
+
+  }
+  .gird{background: #0e2d80;
+    margin: 10px 0;
+
+  }
+  .bb{ 
+    font: 500 30px/1.15 sans-serif !important;
+    text-align: center;
+}
+.a33{
+    text-align: center;
+   
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 50px;
+
+    
+}
+.a222{
+    margin: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+
+.icon-bar{position: relative;
+    margin: 0 250px;
+    text-align: center;
+    bottom: 100px;
+    
+}   
+.a122{ position: relative;
+    background-color: #0e2d80 !important;
+    padding: 150px;
+    
+    
 
 }
- .bg{
-      color: aqua;
- }
+.fname{
+    float: left;
+    
+}
+.lname{
+    float: left;
+}
+.email{
+    float: left;
+}
+#fname{
+    float: left;   
+}
+#lname{
+float: left;
+}
+#email{
+    float: left;
+
+}
+#myBtn{
+    float: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 5px solid #717171;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: transparent;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .containers {position: relative;
+    border-radius: 5px;
+    background-color: #0e2d80;
+    margin: 60px;
+    bottom: 180px;
+    text-align: left;
+    
+  }
+  .a211{position: relative;
+  
+  
+    background-color:transparent;
+    padding: 10px 10px;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 26px;
+  
+  }
+
+@media screen and (max-width: 360px){
+.a122{
+  position: relative;
+   
+    text-align: left;
+    width: 100%;
+    padding: 0;
+   
+}
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 5px solid #717171;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: transparent;
+}
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content { position: relative;
+    background-color: transparent;
+    margin: 5%;
+    padding: 20px;
+    border: 1px solid transparent;
+    width: 30%;
+    bottom: -400px;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
